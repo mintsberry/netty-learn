@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="900a8c44-4923-435a-9803-5c3c0c39c16f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/bio/BIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/chatroom/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/chatroom/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOClient2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOFileChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOFileReadChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOFileWriteChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOServer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOTransferChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/ScatteringAndGathering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/zerocopy/CopyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/zerocopy/CopyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/bio/BIOServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/chatroom/ChatClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/chatroom/ChatServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOClient2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOFileChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOFileReadChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOFileWriteChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOServer2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOTransferChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/ScatteringAndGathering.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/zerocopy/CopyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/zerocopy/CopyServer.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Program Files/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xms1024m -Xmx2048m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d5O630dxjDh9YQdSaqZAOALejg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37931034" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mint.zerocopy" />
+      <recent name="com.mint.nio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dream\java\netty" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NettyClient">
+    <configuration name="ChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.chatroom.ChatClient" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mint.chatroom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.zerocopy.CopyClient" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mint.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.zerocopy.CopyServer" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mint.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.NettyClient" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mint.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.NettyServer" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mint.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.CopyServer" />
+      <item itemvalue="Application.CopyClient" />
+      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.NettyClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.CopyClient" />
+        <item itemvalue="Application.CopyServer" />
+        <item itemvalue="Application.ChatClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="900a8c44-4923-435a-9803-5c3c0c39c16f" name="Default Changelist" comment="" />
+      <created>1591711308833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591711308833</updated>
+      <workItem from="1591711312364" duration="2544000" />
+      <workItem from="1591781512096" duration="21096000" />
+      <workItem from="1591875256088" duration="10322000" />
+      <workItem from="1591928335464" duration="221000" />
+      <workItem from="1591929743808" duration="13808000" />
+      <workItem from="1592274930341" duration="113000" />
+      <workItem from="1592536314958" duration="506000" />
+      <workItem from="1592579646890" duration="301000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="56" key="#Java" timestamp="1591713391814">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="533" y="56" key="#Java/0.0.1920.1050@0.0.1920.1050" timestamp="1591713391814" />
+    <state x="880" y="102" key="#Project_Structure" timestamp="1591781751492">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="880" y="102" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1591781751492" />
+    <state x="563" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591888335464">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="563" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591888335464" />
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592050122096">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592050122096" />
+    <state x="1139" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591887535355">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1139" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591887535355" />
+    <state x="711" y="348" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1592046768658">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="711" y="348" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592046768658" />
+    <state width="401" height="466" key="DebuggerActiveHint" timestamp="1592536612646">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="401" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1592536612646" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592046653831">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592046653831" />
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1592545607598">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607598" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1592545607598">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607598" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1592545607598">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607598" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1592545607598">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607598" />
+    <state width="1877" height="270" key="GridCell.Tab.1.bottom" timestamp="1592545607599">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592536595648" />
+    <state width="1877" height="270" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607599" />
+    <state width="1877" height="270" key="GridCell.Tab.1.center" timestamp="1592545607599">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1592536595647" />
+    <state width="1877" height="270" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607599" />
+    <state width="1877" height="270" key="GridCell.Tab.1.left" timestamp="1592545607598">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1592536595647" />
+    <state width="1877" height="270" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607598" />
+    <state width="1877" height="270" key="GridCell.Tab.1.right" timestamp="1592545607599">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1592536595648" />
+    <state width="1877" height="270" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607599" />
+    <state x="540" y="259" key="IDE.errors.dialog" timestamp="1591934430575">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="259" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591934430575" />
+    <state x="490" y="179" key="Maven.ArtifactSearchDialog" timestamp="1591712610686">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="179" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591712610686" />
+    <state x="461" y="168" key="SettingsEditor" timestamp="1592047232079">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592047232079" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1592050248072">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1592050248072" />
+    <state x="679" y="485" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1592046767500">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="679" y="485" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050@0.0.1920.1050" timestamp="1592046767500" />
+    <state x="1170" y="284" key="extract.method.dialog" timestamp="1591792797794">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1170" y="284" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591792797794" />
+    <state x="1096" y="245" key="run.anything.popup" timestamp="1591889634362">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1096" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1591889634362" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1592048308302">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592048308302" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mint/nio/NIOServer.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServerHandler.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="sun.nio.ch.WindowsSelectorImpl" fieldName="publicSelectedKeys" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/netty$ChatClient.ic" NAME="ChatClient Coverage Results" MODIFIED="1591888226329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mint.chatroom.*</FILTER>
+    </SUITE>
+  </component>
+</project>
