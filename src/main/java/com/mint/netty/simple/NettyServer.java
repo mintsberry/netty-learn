@@ -1,11 +1,10 @@
-package com.mint.netty;
+package com.mint.netty.simple;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.channel.socket.nio.NioSocketChannel;
 
 /**
  * @author LingXi
@@ -31,6 +30,13 @@ public class NettyServer {
             });
     System.out.println("Server is ready");
     ChannelFuture channelFuture = serverBootstrap.bind(6666).sync();
+    channelFuture.addListener(future -> {
+      if (channelFuture.isSuccess()) {
+        System.out.println("listening 6666 success");
+      } else {
+        System.out.println("listening 6666 failed");
+      }
+    });
     channelFuture.channel().closeFuture().sync();
   }
 }

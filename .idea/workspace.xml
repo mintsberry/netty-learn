@@ -2,47 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="900a8c44-4923-435a-9803-5c3c0c39c16f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/bio/BIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/chatroom/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/chatroom/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOClient2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOFileChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOFileReadChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOFileWriteChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOServer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/NIOTransferChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/nio/ScatteringAndGathering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/zerocopy/CopyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mint/zerocopy/CopyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/bio/BIOServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/chatroom/ChatClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/chatroom/ChatServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClient$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClientHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServerHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOClient2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOFileChannel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOFileReadChannel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOFileWriteChannel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOServer2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/NIOTransferChannel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/nio/ScatteringAndGathering.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/zerocopy/CopyClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mint/zerocopy/CopyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/simple/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/simple/NettyClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/simple/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/simple/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServerHandler.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +45,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1d5O630dxjDh9YQdSaqZAOALejg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -96,6 +67,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37931034" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RebelAgentSelection">
@@ -110,20 +82,7 @@
       <recent name="D:\Dream\java\netty" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NettyClient">
-    <configuration name="ChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mint.chatroom.ChatClient" />
-      <module name="netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mint.chatroom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HttpServer">
     <configuration name="CopyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mint.zerocopy.CopyClient" />
       <module name="netty" />
@@ -150,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mint.netty.NettyClient" />
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.http.HttpServer" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mint.netty.*" />
+          <option name="PATTERN" value="com.mint.netty.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.simple.NettyClient" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mint.netty.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +136,11 @@
       </method>
     </configuration>
     <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mint.netty.NettyServer" />
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.simple.NettyServer" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mint.netty.*" />
+          <option name="PATTERN" value="com.mint.netty.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.CopyServer" />
       <item itemvalue="Application.CopyClient" />
       <item itemvalue="Application.NettyServer" />
       <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.HttpServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.HttpServer" />
         <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.NettyClient" />
         <item itemvalue="Application.CopyClient" />
         <item itemvalue="Application.CopyServer" />
-        <item itemvalue="Application.ChatClient" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +182,7 @@
       <workItem from="1591929743808" duration="13808000" />
       <workItem from="1592274930341" duration="113000" />
       <workItem from="1592536314958" duration="506000" />
-      <workItem from="1592579646890" duration="301000" />
+      <workItem from="1592579646890" duration="7676000" />
     </task>
     <servers />
   </component>
@@ -230,14 +202,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="563" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591888335464" />
-    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592050122096">
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592627501441">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592050122096" />
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592627501441" />
     <state x="1139" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591887535355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1139" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591887535355" />
+    <state x="1152" y="338" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1592626290467">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1152" y="338" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592626290467" />
     <state x="711" y="348" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1592046768658">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -250,26 +226,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592046653831" />
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1592545607598">
+    <state width="914" height="347" key="GridCell.Tab.0.bottom" timestamp="1592661869357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607598" />
-    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1592545607598">
+    <state width="914" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592661869357" />
+    <state width="914" height="347" key="GridCell.Tab.0.center" timestamp="1592661869357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607598" />
-    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1592545607598">
+    <state width="914" height="347" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592661869357" />
+    <state width="914" height="347" key="GridCell.Tab.0.left" timestamp="1592661869357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607598" />
-    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1592545607598">
+    <state width="914" height="347" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592661869357" />
+    <state width="914" height="347" key="GridCell.Tab.0.right" timestamp="1592661869357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592545607598" />
+    <state width="914" height="347" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592661869357" />
     <state width="1877" height="270" key="GridCell.Tab.1.bottom" timestamp="1592545607599">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -318,10 +294,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1096" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1591889634362" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1592048308302">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1592653845146">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592048308302" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592653845146" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -332,7 +308,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServerHandler.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/mint/netty/simple/NettyServerHandler.java</url>
           <line>22</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>

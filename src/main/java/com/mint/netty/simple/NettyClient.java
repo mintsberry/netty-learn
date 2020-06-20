@@ -1,4 +1,4 @@
-package com.mint.netty;
+package com.mint.netty.simple;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -24,6 +24,8 @@ public class NettyClient {
     System.out.println("Client is reading");
 
     ChannelFuture channelFuture = bootstrap.connect("127.0.0.1", 6666).sync();
+
     channelFuture.channel().closeFuture().sync();
+
   }
 }

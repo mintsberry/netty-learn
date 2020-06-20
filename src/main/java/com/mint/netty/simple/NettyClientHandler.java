@@ -1,4 +1,4 @@
-package com.mint.netty;
+package com.mint.netty.simple;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
