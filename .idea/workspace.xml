@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="900a8c44-4923-435a-9803-5c3c0c39c16f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/simple/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/simple/NettyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/simple/NettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mint/netty/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mint/netty/simple/NettyServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mint/netty/NettyServerHandler.class" beforeDir="false" />
-    </list>
+    <list default="true" id="900a8c44-4923-435a-9803-5c3c0c39c16f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mint.netty.chatroom" />
       <recent name="com.mint.zerocopy" />
       <recent name="com.mint.nio" />
     </key>
@@ -82,13 +72,13 @@
       <recent name="D:\Dream\java\netty" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HttpServer">
-    <configuration name="CopyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mint.zerocopy.CopyClient" />
+  <component name="RunManager" selected="Application.ChatRoomClient">
+    <configuration name="ChatRoomClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.chatroom.ChatRoomClient" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mint.zerocopy.*" />
+          <option name="PATTERN" value="com.mint.netty.chatroom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mint.zerocopy.CopyServer" />
+    <configuration name="ChatRoomServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.chatroom.ChatRoomServer" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mint.zerocopy.*" />
+          <option name="PATTERN" value="com.mint.netty.chatroom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CopyServer" />
-      <item itemvalue="Application.CopyClient" />
       <item itemvalue="Application.NettyServer" />
       <item itemvalue="Application.NettyClient" />
       <item itemvalue="Application.HttpServer" />
+      <item itemvalue="Application.ChatRoomServer" />
+      <item itemvalue="Application.ChatRoomClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatRoomClient" />
+        <item itemvalue="Application.ChatRoomServer" />
         <item itemvalue="Application.HttpServer" />
         <item itemvalue="Application.NettyServer" />
         <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.CopyClient" />
-        <item itemvalue="Application.CopyServer" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +172,9 @@
       <workItem from="1591929743808" duration="13808000" />
       <workItem from="1592274930341" duration="113000" />
       <workItem from="1592536314958" duration="506000" />
-      <workItem from="1592579646890" duration="7676000" />
+      <workItem from="1592579646890" duration="8712000" />
+      <workItem from="1592719849584" duration="186000" />
+      <workItem from="1592751785948" duration="1915000" />
     </task>
     <servers />
   </component>
@@ -198,14 +190,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="880" y="102" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1591781751492" />
-    <state x="563" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591888335464">
+    <state x="563" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592753701178">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="563" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591888335464" />
-    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592627501441">
+    <state x="563" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592753701178" />
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592753593172">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592627501441" />
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592753593172" />
     <state x="1139" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591887535355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -222,30 +214,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="401" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1592536612646" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592046653831">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592720031256">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592046653831" />
-    <state width="914" height="347" key="GridCell.Tab.0.bottom" timestamp="1592661869357">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592720031256" />
+    <state width="914" height="346" key="GridCell.Tab.0.bottom" timestamp="1592753690440">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="914" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592661869357" />
-    <state width="914" height="347" key="GridCell.Tab.0.center" timestamp="1592661869357">
+    <state width="914" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592753690440" />
+    <state width="914" height="346" key="GridCell.Tab.0.center" timestamp="1592753690440">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="914" height="347" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592661869357" />
-    <state width="914" height="347" key="GridCell.Tab.0.left" timestamp="1592661869357">
+    <state width="914" height="346" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592753690440" />
+    <state width="914" height="346" key="GridCell.Tab.0.left" timestamp="1592753690440">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="914" height="347" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592661869357" />
-    <state width="914" height="347" key="GridCell.Tab.0.right" timestamp="1592661869357">
+    <state width="914" height="346" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592753690440" />
+    <state width="914" height="346" key="GridCell.Tab.0.right" timestamp="1592753690440">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="914" height="347" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592661869357" />
+    <state width="914" height="346" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592753690440" />
     <state width="1877" height="270" key="GridCell.Tab.1.bottom" timestamp="1592545607599">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -290,10 +282,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1170" y="284" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591792797794" />
-    <state x="1096" y="245" key="run.anything.popup" timestamp="1591889634362">
+    <state x="1096" y="245" key="run.anything.popup" timestamp="1592753000926">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1096" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1591889634362" />
+    <state x="1096" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592753000926" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1592653845146">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
