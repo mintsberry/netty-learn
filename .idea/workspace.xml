@@ -64,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mint.netty.websocket" />
       <recent name="com.mint.netty.heart" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -75,7 +76,7 @@
       <recent name="D:\Dream\java\netty" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatRoomClient">
+  <component name="RunManager" selected="Application.Server">
     <configuration name="ChatRoomClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mint.netty.chatroom.ChatRoomClient" />
       <module name="netty" />
@@ -128,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mint.netty.simple.NettyServer" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.websocket.Server" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mint.netty.simple.*" />
+          <option name="PATTERN" value="com.mint.netty.websocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NettyServer" />
       <item itemvalue="Application.HttpServer" />
       <item itemvalue="Application.ChatRoomServer" />
       <item itemvalue="Application.ChatRoomClient" />
       <item itemvalue="Application.HeartServer" />
+      <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.ChatRoomClient" />
         <item itemvalue="Application.HeartServer" />
         <item itemvalue="Application.ChatRoomServer" />
         <item itemvalue="Application.HttpServer" />
-        <item itemvalue="Application.NettyServer" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +179,7 @@
       <workItem from="1592579646890" duration="8712000" />
       <workItem from="1592719849584" duration="186000" />
       <workItem from="1592751785948" duration="2364000" />
-      <workItem from="1592834493558" duration="935000" />
+      <workItem from="1592834493558" duration="7294000" />
     </task>
     <servers />
   </component>
@@ -198,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="563" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592753701178" />
-    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592835123133">
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592882976818">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592835123133" />
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592882976818" />
     <state x="1139" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591887535355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -222,26 +223,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592720031256" />
-    <state width="914" height="345" key="GridCell.Tab.0.bottom" timestamp="1592835417888">
+    <state width="916" height="345" key="GridCell.Tab.0.bottom" timestamp="1592883525740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="914" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592835417888" />
-    <state width="914" height="345" key="GridCell.Tab.0.center" timestamp="1592835417888">
+    <state width="916" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592883525740" />
+    <state width="916" height="345" key="GridCell.Tab.0.center" timestamp="1592883525740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="914" height="345" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592835417888" />
-    <state width="914" height="345" key="GridCell.Tab.0.left" timestamp="1592835417888">
+    <state width="916" height="345" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592883525740" />
+    <state width="916" height="345" key="GridCell.Tab.0.left" timestamp="1592883525740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="914" height="345" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592835417888" />
-    <state width="914" height="345" key="GridCell.Tab.0.right" timestamp="1592835417888">
+    <state width="916" height="345" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592883525740" />
+    <state width="916" height="345" key="GridCell.Tab.0.right" timestamp="1592883525740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="914" height="345" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592835417888" />
+    <state width="916" height="345" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592883525740" />
     <state width="1877" height="270" key="GridCell.Tab.1.bottom" timestamp="1592545607599">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -282,6 +283,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="679" y="485" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050@0.0.1920.1050" timestamp="1592046767500" />
+    <state x="1211" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592836694328">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1211" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592836694328" />
     <state x="1170" y="284" key="extract.method.dialog" timestamp="1591792797794">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
