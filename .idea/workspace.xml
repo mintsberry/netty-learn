@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="900a8c44-4923-435a-9803-5c3c0c39c16f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="900a8c44-4923-435a-9803-5c3c0c39c16f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -53,21 +52,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mint/netty/codec2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37931034" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mint.netty.inandoutbound" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mint.netty.inandoutbound" />
       <recent name="com.mint.netty.websocket" />
       <recent name="com.mint.netty.heart" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mint.netty.chatroom" />
@@ -80,13 +88,13 @@
       <recent name="D:\Dream\java\netty" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NettyClient (2)">
-    <configuration name="NettyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mint.netty.simple.NettyClient" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.inandoutbound.Client" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mint.netty.simple.*" />
+          <option name="PATTERN" value="com.mint.netty.inandoutbound.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mint.netty.codec.NettyServer" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mint.netty.inandoutbound.Server" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mint.netty.codec.*" />
+          <option name="PATTERN" value="com.mint.netty.inandoutbound.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,18 +156,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.NettyClient" />
-      <item itemvalue="Application.NettyServer" />
-      <item itemvalue="Application.NettyClient (1)" />
       <item itemvalue="Application.NettyServer (1)" />
       <item itemvalue="Application.NettyClient (2)" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.NettyClient (2)" />
         <item itemvalue="Application.NettyServer (1)" />
         <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.NettyClient (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +193,7 @@
       <workItem from="1592751785948" duration="2364000" />
       <workItem from="1592834493558" duration="8332000" />
       <workItem from="1592888149566" duration="3368000" />
-      <workItem from="1592915859472" duration="3666000" />
+      <workItem from="1592915859472" duration="10349000" />
     </task>
     <servers />
   </component>
@@ -209,22 +217,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1163" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592885925433" />
-    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592926985560">
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592973246210">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592926985560" />
+    <state x="1245" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592973246210" />
     <state x="1139" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591887535355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1139" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591887535355" />
-    <state x="1152" y="338" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1592626290467">
+    <state x="1152" y="338" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1592971378849">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1152" y="338" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592626290467" />
+    <state x="1152" y="338" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592971378849" />
     <state x="711" y="348" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1592046768658">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="711" y="348" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592046768658" />
+    <state x="715" y="226" key="#xdebugger.evaluate" timestamp="1592974807908">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="715" y="226" key="#xdebugger.evaluate/0.0.1920.1050@0.0.1920.1050" timestamp="1592974807908" />
     <state width="401" height="466" key="DebuggerActiveHint" timestamp="1592536612646">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -233,46 +245,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1592888382901" />
-    <state width="916" height="335" key="GridCell.Tab.0.bottom" timestamp="1592927184222">
+    <state width="938" height="341" key="GridCell.Tab.0.bottom" timestamp="1592976363587">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="916" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592927184222" />
-    <state width="916" height="335" key="GridCell.Tab.0.center" timestamp="1592927184222">
+    <state width="938" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592976363587" />
+    <state width="938" height="341" key="GridCell.Tab.0.center" timestamp="1592976363587">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="916" height="335" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592927184222" />
-    <state width="916" height="335" key="GridCell.Tab.0.left" timestamp="1592927184222">
+    <state width="938" height="341" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592976363587" />
+    <state width="938" height="341" key="GridCell.Tab.0.left" timestamp="1592976363587">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="916" height="335" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592927184222" />
-    <state width="916" height="335" key="GridCell.Tab.0.right" timestamp="1592927184222">
+    <state width="938" height="341" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592976363587" />
+    <state width="938" height="341" key="GridCell.Tab.0.right" timestamp="1592976363587">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1592536596631" />
-    <state width="916" height="335" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592927184222" />
-    <state width="1877" height="271" key="GridCell.Tab.1.bottom" timestamp="1592926000360">
+    <state width="938" height="341" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592976363587" />
+    <state width="938" height="265" key="GridCell.Tab.1.bottom" timestamp="1592976049059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="270" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592536595648" />
-    <state width="1877" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592926000360" />
-    <state width="1877" height="271" key="GridCell.Tab.1.center" timestamp="1592926000360">
+    <state width="938" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592976049059" />
+    <state width="938" height="265" key="GridCell.Tab.1.center" timestamp="1592976049059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="270" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1592536595647" />
-    <state width="1877" height="271" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592926000360" />
-    <state width="1877" height="271" key="GridCell.Tab.1.left" timestamp="1592926000359">
+    <state width="938" height="265" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592976049059" />
+    <state width="938" height="265" key="GridCell.Tab.1.left" timestamp="1592976049059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="270" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1592536595647" />
-    <state width="1877" height="271" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592926000359" />
-    <state width="1877" height="271" key="GridCell.Tab.1.right" timestamp="1592926000360">
+    <state width="938" height="265" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592976049059" />
+    <state width="938" height="265" key="GridCell.Tab.1.right" timestamp="1592976049059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1493" height="270" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1592536595648" />
-    <state width="1877" height="271" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592926000360" />
+    <state width="938" height="265" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592976049059" />
     <state x="540" y="259" key="IDE.errors.dialog" timestamp="1591934430575">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -281,10 +293,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="490" y="179" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591712610686" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1592888589023">
+    <state x="461" y="168" key="SettingsEditor" timestamp="1592972033365">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592888589023" />
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592972033365" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1592916193160">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -293,22 +305,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="679" y="485" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050@0.0.1920.1050" timestamp="1592046767500" />
-    <state x="1211" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592836694328">
+    <state x="1211" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592971705501">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1211" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592836694328" />
-    <state x="1170" y="284" key="extract.method.dialog" timestamp="1591792797794">
+    <state x="1211" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592971705501" />
+    <state x="1170" y="284" key="extract.method.dialog" timestamp="1592927256090">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1170" y="284" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591792797794" />
+    <state x="1170" y="284" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592927256090" />
     <state x="1096" y="245" key="run.anything.popup" timestamp="1592753000926">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1096" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592753000926" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1592653845146">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1592969657710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592653845146" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592969657710" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,6 +350,21 @@
           <line>33</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mint/netty/inandoutbound/ClientHandler.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mint/netty/inandoutbound/ClientInitialize.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mint/netty/inandoutbound/ByteToLongDecoder.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/mint/netty/codec/NettyServerHandler.java</url>
           <line>15</line>
@@ -345,6 +372,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mint/netty/inandoutbound/ClientHandler.java</url>
+          <line>21</line>
+          <properties class="com.mint.netty.inandoutbound.ClientHandler" method="channelActive">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
